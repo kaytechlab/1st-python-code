@@ -1,0 +1,9 @@
+name str
+dept str
+level str
+faculty str
+college str
+position held str
+sex str
+age int
+height float

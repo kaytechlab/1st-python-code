@@ -1,0 +1,15 @@
+name = input ("Enter your name: ")
+print("Hello", name)
+age = int(input ("Enter your age :"))
+age += 1
+print(f" You are {age } years old.")
+Height = float(input ("Enter your Height : "))
+print(f"you are {Height} tall.")
+department = input ("Enter your department")
+print(f"you are {department} department")
+Level = input ("enter your level")
+print(f"you are {Level} Level")
+Position = inpu ("Enter your position")
+print(f"you are the {Position} ")
+
+Print(name+ " -->", str(age), " -->" +department , "-->" + Position)
