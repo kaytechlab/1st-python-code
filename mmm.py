@@ -2,18 +2,25 @@ accounts = {
     "kay": 1000000,
     "Daniel": 2000000
 }
-accounts = {}
 
 def deposit():
-    name = input("Enter account name to deposit into: ")
+    name = input("Enter account name to deposit into:")
+    if name in accounts:
+        print("Name of account")
+    else:
+        print("ERROR: Account does not exist.")
+        return
     amount = int(input("Enter amount to deposit: "))
     accounts[name] = accounts.get(name, 0) + amount
     print(f"{amount} deposited into {name}'s account.")
 
 def check_balance():
     name = input("Enter account name to check balance: ")
+    print(accounts)
     if name in accounts:
         print(f"{name}'s balance is {accounts[name]}")
+    if name in accounts:
+        print("ERROR: Name not found")
     else:
         print("ERROR: Account does not exist.")
 
