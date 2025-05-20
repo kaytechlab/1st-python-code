@@ -2,7 +2,6 @@ accounts = {
     "kay": 1000000,
     "Daniel": 2000000
 }
-accounts = {}
 
 def deposit():
     name = input("Enter account name to deposit into: ")
@@ -12,6 +11,7 @@ def deposit():
 
 def check_balance():
     name = input("Enter account name to check balance: ")
+    print(accounts)
     if name in accounts:
         print(f"{name}'s balance is {accounts[name]}")
     else:
