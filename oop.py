@@ -1,15 +1,14 @@
 # Encapsulation: Bank class encapsulates account management logic
-accounts = {
-    "kay": 1000000,
-    "Daniel": 2000000
-}
 
 class Bank:
     def __init__(self):
-        self.accounts = {}
+        self.accounts = {
+        "kay": 1000000,
+        "Daniel": 2000000
+    }
 
     def deposit(self, name, amount):
-        if name in accounts:
+        if name in self.accounts:
             print("Name of account")
         else:
             print("ERROR: Account does not exist.")

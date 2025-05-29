@@ -36,6 +36,7 @@ def grade_categorise(score):
     if score >=90:
         print("A")
         stats["A"] = stats["A"] + 1
+        stats["A"] += 1
     elif score >= 80:
         print("B")
         stats["B"] = stats["B"]+1
