@@ -2,7 +2,7 @@
 sentence = ("my journey into backend learning")
 def count_words(setence):
     words = sentence.split(" ")
-    print(words)
-    print("words")
-    return len(words)
+    # print(words)
+    # print("words")
+    # # return len(words)
 print (count_words("my journey into backend learning"))
