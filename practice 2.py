@@ -1,3 +1,6 @@
+# Create a class Rectangle with attributes width and height.
+# Add a method area() that returns the area (width × height).
+
 class Rectangle:
     def __init__(self, width, height):
         self.width = width
