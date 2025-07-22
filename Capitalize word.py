@@ -4,6 +4,5 @@ def capitalize_words(sentence):
     words = sentence.split()
     # capitalized = [word.capitalize()for word in words]
     for word in words:
-
-    return ' '.join(capitalized)
+        return ' '.join(capitalized)
 print(capitalize_words("went far away"))

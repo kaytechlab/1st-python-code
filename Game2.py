@@ -40,10 +40,9 @@ while score["player"] < 3 and score["computer"] < 3:
     elif (
         (user_choice == 'rock' and computer_choice == 'scissors') or
         (user_choice == 'paper' and computer_choice == 'rock') or
-        (user_choice == 'scissors' and computer_choice == 'paper')
-    ):
-        print("You win this round!")
-        score["player"] += 1
+        (user_choice == 'scissors' and computer_choice == 'paper')):
+            print("You win this round!")
+            score["player"] += 1
     else:
         print("Computer wins this round!")
         score["computer"] += 1
